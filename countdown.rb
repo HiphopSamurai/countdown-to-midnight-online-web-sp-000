@@ -1,6 +1,6 @@
 #write your code here
 def countdown(seconds)
-  while seconds >= 0
+  while seconds > 0
     puts "#{seconds} SECONDS!"
     seconds -= 1
   end
@@ -8,7 +8,7 @@ def countdown(seconds)
 end
 
 def countdown_with_sleep(seconds)
-  while seconds >= 0
+  while seconds > 0
     puts "#{seconds} SECONDS!"
     seconds -= 1
     sleep(1)
